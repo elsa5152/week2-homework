@@ -2,13 +2,41 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    text-decoration: none;
 }
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+  }
+
+  
+/*side bar styling*/
+
+aside {
+  flex: 1;
+  background-color: #b9c6ae;
+  padding: 20px;
+}
+
+section {
+  flex: 70%;
+  background-color: #fff;
+  padding: 20px;
+}
+
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #13293d;
+  color: #fff;
+}
+
 /*title distance*/
 
 .max-width{
     max-width: 1300px;
-    padding: 0 100px;
+    padding: 0 80px;
     margin: auto;
 }
 /*defined the titleBar*/
@@ -23,19 +51,23 @@
 }
 
 .titleBar .max-width{
-    display: flex;
+    display:flex;
     align-items: center;
     justify-content: space-between;
 }
 
 .titleBar .logo a{
+    text-align: justify;
     color:aliceblue;
     font-size: 40px;
     font-weight: 600;
+    padding: 10px 25px;
+   
 }
 .titleBar .menu li{
     list-style: none;
     display: inline-block;
+    padding: 10px 25px;
 }
 
 .titleBar .menu li a{
@@ -43,31 +75,32 @@
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
-}
-
-/*create page bady bar*/
-
-.informtion1{
-    max-width: 500px;  /*zihang kuandu*/
-    padding: 0 100px;
-    margin: right;
+    text-decoration: none;
 
 }
 
+.titleBar ul li a .About,
 
-.About1{
-    position:fixed;
-    padding: 10px 0;
-    width: 100%;
-    background: rgb(48, 48, 88);
-    font-family: 'Ubuntu',sans-serif;
+.titleBar ul li a:hover{
+    background: orchid;
+    border-radius: 2px;
 
 }
 
-.About1 .informtion1 a{
-    position:fixed;
-    padding: 10px 0;
-    width: 100%;
-    background: rgb(150, 150, 206);
-    font-family: 'Ubuntu',sans-serif;
+
+
+/*create About section styling*/
+
+.About{
+    height: 20vh;
+    width: 30vh;
+    background-color: #b9c6ae;
+
+    
+}
+
+.About .About-content .max-width{
+    width: 1300px;
+    display:flex;
+
 }

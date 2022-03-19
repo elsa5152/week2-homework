@@ -12,6 +12,13 @@ main {
     background-color: aquamarine;
   }
 
+
+  
+  nav a {
+    color: #d61021;
+    
+    text-decoration-line: underline;
+  }
   
 /*side bar styling*/
 
@@ -23,9 +30,18 @@ aside {
 
 section {
   flex: 70%;
-  background-color: lightgrey;
+  background-color: #b9c6ae;
   padding: 20px;
+
+
 }
+
+img {
+    width: 100%;
+    padding: 10px;
+    height: 200px;
+    border: 1px solid black;
+  }
 
 footer {
   padding: 20px;
@@ -81,7 +97,6 @@ footer {
 
 }
 
-.titleBar ul li a .About,
 
 .titleBar ul li a:hover{
     background: orchid;
@@ -98,17 +113,13 @@ footer {
     width: 30vh;
     background-color: #b9c6ae;
     border-right-style: solid;
-    
-    
-    
-    
+   
 }
 
-.About .About-content .max-width{
+.About .About-content {
     width: 1500px;
     display:flex;
-    
-    
+    flex-direction: column;
     
      
 }
@@ -118,11 +129,13 @@ footer {
     display: inline-block;
     margin: 10px;
     
+    
 }
 
 .About-content {
     font-size: 16px ;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #b9c6ae;
 
 }
 
@@ -130,7 +143,7 @@ footer {
 /*create Hobby section styling*/
 
 .Hobby{
-    height: 20vh;
+    height: 30vh;
     width: 30vh;
     background-color: #b9c6ae;
     border-right-style: solid;
@@ -138,44 +151,116 @@ footer {
     
 }
 
-.Hobby .Hobby-image .max-width{
-    width: 1300px;
+.Hobby .Hobby-image {
+    width: auto;
     display:flex;
+    background-color: #b9c6ae;
+
+
+}
+.Hobby-box {
+    width: auto;
+    display:flex;
+    background-color: #b9c6ae;
+    margin-top: 5px;
+
+}
+
+
+.Game {
+    
+    background-color: #b9c6ae;
+    width: auto;  /* auto box */
+    height: auto; 
+    max-width: 400px;
+    max-height: 300px; /* size of the box and imag */
+    border: 5px solid yellow;
+
+    
+}
+
+
+.Game a:hover{
+    background: yellow;
+    border-radius: 2px;
+    filter: brightness(60%);
 
 }
 
 /*create Resume section styling*/
 
 .Resume{
-    height: 20vh;
+    height: 85vh;
     width: 30vh;
     background-color: #b9c6ae;
     border-right-style: solid;
 
     
 }
-.Resume .Resume-reference .max-width{
+.Resume .Resume-reference {
     width: 1300px;
     display:flex;
 
 }
+/* CONTAINER DESIGN*/
 
 
 
+.Resume-reference1 {
+
+    width:50%; float:left; display:inline;
+    background-color: #b9c6ae;
+}
+
+.Resume-reference1 a:hover{
+    background: yellow;
+    border-radius: 2px;
+    filter: brightness(60%);
+
+}
+.Resume-reference2 a:hover{
+    background: yellow;
+    border-radius: 2px;
+    filter: brightness(60%);
+    
+
+
+}
 
 /*create Contact section styling*/
 
-.Contact{
-    height: 20vh;
+.Contact {
+    display: flex;
+
     width: 30vh;
     background-color: #b9c6ae;
     border-right-style: solid;
+  }
+  
 
+
+  .Contact-info {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 10px;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+  
+  .Contact-info > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 5px solid rgb(41, 214, 6);
+    text-align: center;
+    font-size: 30px;
+  }
+  .Contact-info a:hover{
+    background: yellow;
+    border-radius: 5px;
+    filter: brightness(60%);
     
-}
-
-.Contact .Contact-info .max-width{
-    width: 1300px;
-    display:flex;
 
 }
+
+
+
+

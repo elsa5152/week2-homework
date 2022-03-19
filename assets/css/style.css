@@ -2,12 +2,14 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
 }
 
 main {
     display: flex;
     flex-wrap: wrap;
     padding: 50px;
+    background-color: aquamarine;
   }
 
   
@@ -21,7 +23,7 @@ aside {
 
 section {
   flex: 70%;
-  background-color: #fff;
+  background-color: lightgrey;
   padding: 20px;
 }
 
@@ -32,14 +34,14 @@ footer {
   color: #fff;
 }
 
-/*title distance*/
+/*create box*/
 
 .max-width{
-    max-width: 1300px;
-    padding: 0 80px;
+    max-width: 1500px;
+    padding: 0 40px;
     margin: auto;
 }
-/*defined the titleBar*/
+/*create the titleBar*/
 
 .titleBar{
     position:fixed;
@@ -95,11 +97,84 @@ footer {
     height: 20vh;
     width: 30vh;
     background-color: #b9c6ae;
-
+    border-right-style: solid;
+    
+    
+    
     
 }
 
 .About .About-content .max-width{
+    width: 1500px;
+    display:flex;
+    
+    
+    
+     
+}
+
+.About-content {
+    width: 100%;
+    display: inline-block;
+    margin: 10px;
+    
+}
+
+.About-content {
+    font-size: 16px ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
+/*create Hobby section styling*/
+
+.Hobby{
+    height: 20vh;
+    width: 30vh;
+    background-color: #b9c6ae;
+    border-right-style: solid;
+
+    
+}
+
+.Hobby .Hobby-image .max-width{
+    width: 1300px;
+    display:flex;
+
+}
+
+/*create Resume section styling*/
+
+.Resume{
+    height: 20vh;
+    width: 30vh;
+    background-color: #b9c6ae;
+    border-right-style: solid;
+
+    
+}
+.Resume .Resume-reference .max-width{
+    width: 1300px;
+    display:flex;
+
+}
+
+
+
+
+/*create Contact section styling*/
+
+.Contact{
+    height: 20vh;
+    width: 30vh;
+    background-color: #b9c6ae;
+    border-right-style: solid;
+
+    
+}
+
+.Contact .Contact-info .max-width{
     width: 1300px;
     display:flex;
 

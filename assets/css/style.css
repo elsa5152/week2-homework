@@ -7,7 +7,7 @@
 
 main {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap ;
     padding: 50px;
     background-color: aquamarine;
   }
@@ -23,15 +23,20 @@ main {
 /*side bar styling*/
 
 aside {
-  flex: 1;
+  flex: 5;
   background-color: #b9c6ae;
-  padding: 20px;
+  padding: 30px;
+  font-family: 'Inspiration', cursive;
+  
 }
+
 
 section {
   flex: 70%;
   background-color: #b9c6ae;
   padding: 20px;
+ 
+  
 
 
 }
@@ -113,29 +118,13 @@ footer {
     width: 30vh;
     background-color: #b9c6ae;
     border-right-style: solid;
-   
-}
 
-.About .About-content {
-    width: 1500px;
-    display:flex;
-    flex-direction: column;
-    
-     
 }
 
 .About-content {
-    width: 100%;
-    display: inline-block;
-    margin: 10px;
-    
-    
-}
-
-.About-content {
-    font-size: 16px ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 12px ;
     background-color: #b9c6ae;
+    
 
 }
 
@@ -176,6 +165,7 @@ footer {
     max-height: 300px; /* size of the box and imag */
     border: 5px solid yellow;
 
+
     
 }
 
@@ -195,12 +185,125 @@ footer {
     background-color: #b9c6ae;
     border-right-style: solid;    
 }
-.KFC{
-    height:auto;
-    width:auto;
-    border: 1px solid red;
-    background-image: url("01.gif");
+
+/* class KFC STYLING*/
+
+
+
+
+.KFC a{
+    background-image: url("../image/01.gif");/*use background-image as a nav*/
+    display: block; 
+    width: 800px;
+    height: 400px;
+    font-size:25px;
+    
+    text-align: end;
+    
+    
+    
 }
+
+
+
+.KFC a:hover{
+    filter:brightness(60%);
+    font-family: 'Inspiration', cursive;
+    border: 5px solid palevioletred;
+
+}
+
+.box-nav{
+    flex-wrap: wrap ;
+    display:flex;
+
+}
+/*CLASS DOMINO STYLING*/
+
+
+.DOMINO a{
+    background-image: url("../image/1.jpg");/*use background-image as a nav*/
+    display: flex; 
+    width: 350px;
+    height: 100px;
+    font-size: 18px;
+    flex-direction: column;
+    margin: 20px;;
+    
+    
+
+    
+}
+
+.DOMINO a:hover{
+    filter:brightness(60%);
+    font-family: 'Inspiration', cursive;
+    border: 5px solid rgb(62, 15, 151);
+
+}
+/*CLASS PASTA STYLING*/
+
+.PASTA a{
+    background-image: url("../image/2.jpg");/*use background-image as a nav*/
+    display: flex; 
+    width: 350px;
+    height: 100px;
+    font-size: 20px;
+    flex-direction: column;
+    margin: 20px;;
+    
+
+}
+
+
+
+.PASTA a:hover{
+    filter:brightness(60%);
+    font-family: 'Inspiration', cursive;
+    border: 5px solid rgb(46, 179, 64);
+
+}
+/*CLASS .RED-ROOSTER STYLING*/
+.RED-ROOSTER a{
+    background-image: url("../image/3.jpg");/*use background-image as a nav*/
+    display: flex; 
+    width: 350px;
+    height: 100px;
+    font-size: 20px;
+    flex-direction: column;
+    margin: 20px;;
+}
+
+
+
+.RED-ROOSTER a:hover{
+    filter:brightness(60%);
+    font-family: 'Inspiration', cursive;
+    border: 5px solid rgb(41, 152, 204);
+
+}
+/*CLASS PIZZA STYLING*/
+.PIZZA a{
+    background-image: url("../image/4.jpg");/*use background-image as a nav*/
+    display: flex; 
+    width: 350px;
+    height: 100px;
+    font-size: 20px;
+    flex-direction: column;
+    margin: 20px;;
+   
+}
+
+
+
+.PIZZA a:hover{
+    filter:brightness(60%);
+    font-family: 'Inspiration', cursive;
+    border: 5px solid rgb(219, 216, 21);
+
+}
+
+
 
 
 /*create Contact section styling*/

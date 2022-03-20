@@ -193,39 +193,15 @@ footer {
     height: 85vh;
     width: 30vh;
     background-color: #b9c6ae;
-    border-right-style: solid;
-
-    
+    border-right-style: solid;    
 }
-.Resume .Resume-reference {
-    width: 1300px;
-    display:flex;
-
-}
-/* CONTAINER DESIGN*/
-
-
-
-.Resume-reference1 {
-
-    width:50%; float:left; display:inline;
-    background-color: #b9c6ae;
+.KFC{
+    height:auto;
+    width:auto;
+    border: 1px solid red;
+    background-image: url("01.gif");
 }
 
-.Resume-reference1 a:hover{
-    background: yellow;
-    border-radius: 2px;
-    filter: brightness(60%);
-
-}
-.Resume-reference2 a:hover{
-    background: yellow;
-    border-radius: 2px;
-    filter: brightness(60%);
-    
-
-
-}
 
 /*create Contact section styling*/
 

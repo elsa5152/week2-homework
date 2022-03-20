@@ -12,7 +12,8 @@ This is the detail for week2-homework.
 <img src="./assets/image/upload-code.png" alt="upload-code.png" width="400" height="200">
 
 * Update to the repo
+* Create a webpage link
 
 ## Link my homework
 
-[Horiseon-page](https://elsa5152.github.io/fistweek-homework/#search-engine-optimization)
+[Lernantino]( https://elsa5152.github.io/week2-homework/)
